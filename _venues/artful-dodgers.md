@@ -12,12 +12,12 @@ contact:
   gmaps-link: "https://goo.gl/maps/rfU3ZFza7Et"
   longitude: -0.109068
   latitude: 51.520857
-  
+
 film-dev:
-  dev-types: "colour black-and-white slide"  
+  dev-types: "colour black-and-white"  
   pricing:
-    c41-35mm-dev-scan: "£12.50" 
-  
+    c41-35mm-dev-scan: "£15.00"
+
 ---
 
 Artful Dodgers Imaging is an intimate, bespoke photographic and digital imaging studio, specifically created for the photographer and printer to work together in image creation.
