@@ -32,7 +32,7 @@ Sorry, you can't make a booking directly through this site.
 
 ## Who made this and why?
 
-I'm [Alex](http://twitter.com/futureshape), and photography is one of my many
+I'm [Alex](https://twitter.com/futureshape), and photography is one of my many
 hobbies. Over the last couple of years, I re-discovered film photography and
 started developing my own film and making prints.
 

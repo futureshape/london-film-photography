@@ -1,6 +1,6 @@
 ---
 title:  "Bright Rooms"
-categories: darkroom film-dev
+categories: darkroom
 
 contact:
   address-summary:  "Peckham, SE15"
@@ -22,7 +22,7 @@ opening:
   saturday: "10:00-16:00"
   sunday: "Closed for courses"
   open-weekends: "Saturday only"
-  
+
 darkroom:
   pricing:
     membership: "£40/year"
@@ -38,14 +38,7 @@ darkroom:
     max-size: "size TBC"
 
   additional:
-    process-film: true
     training: "https://thebrightrooms.com/workshops/"
-
-film-dev:
-  dev-types: "colour black-and-white slide"  
-  details: "https://thebrightrooms.com/lab/"
-  pricing:
-    c41-35mm-dev-scan: "£7.50" 
 
 ---
 

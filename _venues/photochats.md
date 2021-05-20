@@ -1,6 +1,6 @@
 ---
 title:  "Photochats"
-categories: darkroom
+categories: temporarily-removed
 
 contact:
   address-summary: "Homerton, E9"

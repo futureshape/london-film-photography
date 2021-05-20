@@ -1,6 +1,6 @@
 ---
 title:  "Photo Genesis"
-categories: film-dev
+categories: temporarily-removed
 
 contact:
   address-summary:  "Poplar, E14"
@@ -12,10 +12,10 @@ contact:
   gmaps-link: "https://goo.gl/maps/RxhSBk5TDKnUYpBW8"
   longitude: -0.01513
   latitude: 51.51319
-  
+
 film-dev:
   dev-types: "colour black-and-white"  
   pricing:
     c41-35mm-dev-scan: "£TBC"
-  
+
 ---

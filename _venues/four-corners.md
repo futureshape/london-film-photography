@@ -8,7 +8,7 @@ contact:
   email: "info@fourcornersfilm.co.uk"
   address: "121 Roman Road"
   postcode: "E2 0QN"
-  official-site: "http://www.fourcornersfilm.co.uk/photographic-darkrooms-london"
+  official-site: "https://www.fourcornersfilm.co.uk/darkrooms"
   facebook: "https://www.facebook.com/FourCornersE2/"
   gmaps-link: "https://goo.gl/maps/wwKTQ1M3Qvw"
   longitude: -0.049523
@@ -23,8 +23,8 @@ opening:
   saturday: "10.00 - 18.00 (first Saturday of each month only)"
   sunday: "Closed"
   open-weekends: "first Saturday of each month only"
-  
-darkroom: 
+
+darkroom:
   pricing:
     membership: "£50 per year"
     induction: "Included with membership"

@@ -8,13 +8,13 @@ contact:
   address: "3Space International House, 6 Canterbury Crescent"
   postcode: "SW9 7QD"
   phone: "020 7738 5774"
-  official-site: "http://www.photofusion.org/darkrooms/"
+  official-site: "https://www.photofusion.org/darkrooms/"
   facebook: "https://www.facebook.com/Photofusion-106049046305/"
   instagram: "https://www.instagram.com/photofusionuk/"
   gmaps-link: "https://goo.gl/maps/E4WuwpVhLps"
   longitude: -0.113021
   latitude: 51.463981
-  
+
 
 opening:
   monday: "Closed"
@@ -50,7 +50,7 @@ darkroom:
     max-size: "20×24″"
 
   additional:
-    training: "http://www.photofusion.org/photography-courses/"
+    training: "https://www.photofusion.org/photography-courses/"
 
 film-dev:
   details: "https://www.photofusion.org/film-processing/"
