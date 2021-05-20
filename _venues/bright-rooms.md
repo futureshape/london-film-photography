@@ -14,28 +14,26 @@ contact:
   latitude: 51.469906
 
 opening:
-  monday: "10:00 – 18:00"
-  tuesday: "10:00 – 18:00"
-  wednesday: "10:00 – 18:00"
-  thursday: "13:00 – 22:00 (closed for courses every 1st and 3rd of the month)"
-  friday: "10:00 – 18:00"
-  saturday: "10:00-16:00"
-  sunday: "Closed for courses"
-  open-weekends: "Saturday only"
+  monday: "Flexible based on bookings"
+  tuesday: "Flexible based on bookings"
+  wednesday: "Flexible based on bookings"
+  thursday: "Flexible based on bookings"
+  friday: "Flexible based on bookings"
+  saturday: "Flexible based on bookings"
+  sunday: "Flexible based on bookings"
 
 darkroom:
   pricing:
-    membership: "£40/year"
-    induction: "Included in membership fee"
+    membership: "Not needed"
+    induction: "Available as a separate workshop"
     printing: "£7.50/hr (4 hours minimum)"
-    discount-bulk: true
 
   black-and-white:
     formats:
     - "35mm"
     - "medium format"
-    - "large format (TBC)"
-    max-size: "size TBC"
+    - "large format (10×8″)"
+    max-size: "12×16″ (20×24″ on request)"
 
   additional:
     training: "https://thebrightrooms.com/workshops/"
