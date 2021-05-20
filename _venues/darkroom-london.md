@@ -13,7 +13,7 @@ contact:
   gmaps-link: "https://goo.gl/maps/w4JzZeFAMFP2"
   longitude: -0.152666
   latitude: 51.546983
-  
+
 
 opening:
   monday: "10.00 - 22.00"
@@ -44,8 +44,18 @@ darkroom:
   additional:
     training: "https://www.darkroomlondon.org/partners/"
 
+film-dev:
+  details: "https://www.darkroomlondon.org/new-film-processing-and-printing-service"
+  dev-types: "black-and-white"  
+  pricing:
+    bw-35mm-dev-scan: "£12.00"
+
 ---
 
-darkroom is an exciting new North London project. Supporting the recent revival of interest in analogue photography, it provides accessible darkroom facilities and courses in film-based photography.
+darkroom is a fantastic new facility in Camden Town in north London where you can work comfortably to produce high quality black and white photographic prints.
 
-darkroom is designed as a space that both the novice and experienced photographer can come and work in.
+We have a range of enlargers that will satisfy most photographers’ needs, ranging from easy to use Kaiser 35mm/120 enlargers to a range of De Vere and LPLs capable of handling everything from 35mm to 5 x 4.
+
+Initially, you will need to attend a short Induction session with one of our experienced technicians, to ensure you understand how all the equipment works and what our standard operating practices are.
+
+Once inducted, as a member you can book an enlarger for a session of independent printing. darkroom provides all essential chemicals (developer, stop, fix, etc.), so all you need to bring is your own paper. darkroom even provides a processing service for films received at least 48 hours in advance.
