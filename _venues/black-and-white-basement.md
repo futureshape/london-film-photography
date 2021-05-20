@@ -5,7 +5,7 @@ categories: darkroom film-dev
 contact:
   address-summary:  "St Johns Wood, NW8"
   phone: "020 7624 2244"
-  email: "keith@bwbasement.com"
+  email: "info@bwbasement.com"
   address: "Basement, 16 Blenheim Terrace"
   postcode: "NW8 0EB"
   official-site: "https://bwbasement.com/darkroom-hire-london/"
@@ -15,13 +15,14 @@ contact:
   latitude: 51.535266
 
 opening:
-  monday: "9:00 – 17:30"
-  tuesday: "9:00 – 17:30"
-  wednesday: "9:00 – 17:30"
-  thursday: "9:00 – 17:30"
-  friday: "9:00 – 17:30"
-  saturday: "Closed"
+  monday: "9:00 – 18:00"
+  tuesday: "9:00 – 18:00"
+  wednesday: "9:00 – 18:00"
+  thursday: "9:00 – 18:00"
+  friday: "9:00 – 18:00"
+  saturday: "By arrangement"
   sunday: "Closed"
+  open-weekends: "By arrangement"
 
 darkroom:
 
@@ -29,6 +30,7 @@ darkroom:
     membership: "Not required"
     induction: "Basic guidance included with printing"
     printing: "£10/hr (4 hours) or £7.5/hr (full day)"
+    discount-bulk: true
 
   black-and-white:
     formats:
@@ -45,7 +47,7 @@ film-dev:
   details: "https://bwbasement.com/analog-film-processing/"
   dev-types: "black-and-white"  
   pricing:
-    bw-35mm-dev-scan: "£15.00"
+    bw-35mm-dev-scan: "£20.00"
 ---
 
 The darkroom is equipped with DeVere 504 / 203 and Leica V35 Autofocus Enlargers all with MultiGrade heads and covering 35mm, 120 Medium Format and 5×4 sheet.
