@@ -7,6 +7,7 @@ contact:
   email: "info@bayeux.co.uk"
   address: "78 Newman Street"
   postcode: "W1T 3EP"
+  phone: "020 7436 1066"
   official-site: "https://www.bayeux.co.uk/"
   facebook: "https://www.facebook.com/BayeuxPhotoLab/"
   instagram: "https://www.instagram.com/bayeux_ltd/"
@@ -17,7 +18,7 @@ contact:
 film-dev:
   dev-types: "colour black-and-white slide"  
   pricing:
-    c41-35mm-dev-scan: "£35.00"
+    c41-35mm-dev-scan: "£22.00"
 
 ---
 
