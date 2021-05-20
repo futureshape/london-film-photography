@@ -9,7 +9,7 @@ contact:
   postcode: "SE15 4ST"
   official-site: "https://thebrightrooms.com/darkroom/"
   instagram: "https://www.instagram.com/thebrightrooms/"
-  gmaps-link: "https://goo.gl/maps/qqd7o5N7ryC2"
+  gmaps-link: "https://g.page/thebrightrooms?share"
   longitude: -0.068213
   latitude: 51.469906
 

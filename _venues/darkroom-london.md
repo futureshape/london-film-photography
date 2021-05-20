@@ -10,7 +10,7 @@ contact:
   official-site: "https://www.darkroomlondon.org/"
   instagram: "https://www.instagram.com/darkroomlondon/"
   facebook: "https://www.facebook.com/DarkroomDarkroomDarkroom/"
-  gmaps-link: "https://goo.gl/maps/w4JzZeFAMFP2"
+  gmaps-link: "https://goo.gl/maps/xLVdWoLqoT6mgtMo6"
   longitude: -0.152666
   latitude: 51.546983
 
