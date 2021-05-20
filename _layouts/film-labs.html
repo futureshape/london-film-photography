@@ -36,21 +36,21 @@ layout: film-labs
             $(value).css("order", orderArray[index]);
           }
         );
-        
+
         $(".card a.showhide").on("click", function () {
           $(this).parent().find(".film-dev-full-info").toggleClass("hidden");
         });
-        
+
         if(window.location.hash) {
           $(window.location.hash).find(".film-dev-full-info").removeClass("hidden");
         }
-        
+
       });
     </script>
   </head>
   <body>
     {% include nav.html %}
-    {% assign filmlabs = site.film-labs | 
+    {% assign filmlabs = site.film-labs |
       where_exp:"venue", "venue.categories contains 'film-dev'"  %}
     <div class="content-area">
       <header>
@@ -64,7 +64,7 @@ layout: film-labs
             <div class="film-dev-basic-info">
               <div class="name">
                 <span class="title">{{lab.title}}</span>
-                <span class="address-summary">{{lab.contact.address-summary}}</span>              
+                <span class="address-summary">{{lab.contact.address-summary}}</span>
               </div>
               <div class="film-types">
                 {% if lab.film-dev.dev-types contains "colour" %}
@@ -84,17 +84,17 @@ layout: film-labs
                   <img class="printing-icon" src="/icons/slide.svg"/>
                   Slide (E6)
                 </span>
-                {% endif %}              
+                {% endif %}
               </div>
               <div class="pricing">
                 {% if lab.film-dev.dev-types contains "colour" %}
-                  35mm colour development & scans from 
+                  35mm colour development & scans from
                   <span class="from-price">{{lab.film-dev.pricing.c41-35mm-dev-scan}}</span>
                 {% elsif lab.film-dev.dev-types contains "black-and-white" %}
-                  35mm B&W development & scans from 
+                  35mm B&W development & scans from
                   <span class="from-price">{{lab.film-dev.pricing.bw-35mm-dev-scan}}</span>
                 {% endif %}
-              </div>              
+              </div>
             </div>
           </a>
           <div class="film-dev-full-info hidden">
@@ -105,11 +105,11 @@ layout: film-labs
             {% endif %}
 
             <a class="email" href="mailto:{{lab.contact.email}}"><i class="fas fa-envelope"></i> {{lab.contact.email}}</a>
-            
+
             {% if lab.film-dev.details %}
-            <a class="official-site" href="{{lab.film-dev.details}}">            
+            <a class="official-site" href="{{lab.film-dev.details}}">
             {% else %}
-            <a class="official-site" href="{{lab.contact.official-site}}"
+            <a class="official-site" href="{{lab.contact.official-site}}">
             {% endif %}
             <i class="fas fa-external-link-alt"></i> Official website</a>
 
@@ -123,7 +123,7 @@ layout: film-labs
             {% endif %}
 
           </div>
-          
+
         </li>
         {% endfor %}
       </ul>
