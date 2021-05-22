@@ -192,26 +192,31 @@ layout: map
                 size: new google.maps.Size(42,42),
                 url: '/icons/darkroom-marker.svg'
               }
-              
+
               var filmLabIcon = {
                 anchor: new google.maps.Point(31, 31),
                 size: new google.maps.Size(42,42),
                 url: '/icons/film-lab-marker.svg'
               }
-              
+
               var multipleIcon = {
                 anchor: new google.maps.Point(31, 31),
                 size: new google.maps.Size(42,42),
                 url: '/icons/multiple-marker.svg'
               }
-              
+
               {% for darkroom in site.darkrooms %}
+
+              {% if darkroom.categories contains 'temporarily-removed' %}
+              {% continue %}
+              {% endif %}
+
               { // create local scope for JS objects
                 let marker = new google.maps.Marker({
                     map: map,
                     position: {lat: {{darkroom.contact.latitude}}, lng: {{darkroom.contact.longitude}} },
                 });
-                
+
                 {% if darkroom.categories contains 'film-dev' and darkroom.categories contains 'darkroom' %}
                 marker.setIcon(multipleIcon)
                 let contentString = '<a href="{{darkroom.url}}" class="map-infobox"><span class="title">{{darkroom.title}}</span>'+
@@ -240,9 +245,8 @@ layout: map
                   infowindow.open(map, marker);
                 });
 
-                bounds.extend(marker.getPosition());                
+                bounds.extend(marker.getPosition());
               }
-              
 
               {% endfor %}
 
