@@ -22,7 +22,10 @@ layout: darkroom
           {% endif %}
 
           <a class="email" href="mailto:{{page.contact.email}}"><i class="fas fa-envelope"></i> {{page.contact.email}}</a>
+
+          {% if page.contact.official-site %}
           <a class="official-site" href="{{page.contact.official-site}}"><i class="fas fa-external-link-alt"></i> Official website</a>
+          {% endif %}
 
           {% if page.contact.facebook %}
           <a class="facebook" href="{{page.contact.facebook}}"><i class="fab fa-facebook"></i> Facebook page</a>

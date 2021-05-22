@@ -106,6 +106,8 @@ layout: film-labs
 
             <a class="email" href="mailto:{{lab.contact.email}}"><i class="fas fa-envelope"></i> {{lab.contact.email}}</a>
 
+            {% if page.contact.official-site or lab.film-dev.details %}
+
             {% if lab.film-dev.details %}
             <a class="official-site" href="{{lab.film-dev.details}}">
             {% else %}
@@ -113,6 +115,7 @@ layout: film-labs
             {% endif %}
             <i class="fas fa-external-link-alt"></i> Official website</a>
 
+            {% endif %}
 
             {% if lab.contact.facebook %}
             <a class="facebook" href="{{lab.contact.facebook}}"><i class="fab fa-facebook"></i> Facebook page</a>
