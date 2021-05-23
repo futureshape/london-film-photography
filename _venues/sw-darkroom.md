@@ -9,7 +9,7 @@ contact:
   postcode: "SW18 3SX"
   phone: "07593 596 938"
   official-site: "http://swdarkroom.com/"
-  facbook: "https://www.facebook.com/swdarkroom/"
+  facebook: "https://www.facebook.com/swdarkroom/"
   instagram: "https://www.instagram.com/sw_darkroom/"
   gmaps-link: "https://g.page/sw-darkroom?share"
   longitude: -0.174557
