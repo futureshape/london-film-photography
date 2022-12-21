@@ -7,7 +7,6 @@ contact:
   email: "thegatedarkroom@gmail.com"
   address: "Unit 0 – Studio 003, Thames-Side Studios, Harrington Way"
   postcode: "SE18 5NR"
-  phone: "020 7587 1809"
   official-site: "https://www.thegatedarkroom.co.uk/"
   instagram: "https://www.instagram.com/thegatedarkroom/"
   facebook: "https://www.facebook.com/TheGateDarkroom/"
