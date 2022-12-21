@@ -41,7 +41,7 @@ darkroom:
     max-size: "size TBC"
 
   additional:
-    training: "https://www.facebook.com/pg/TheGateDarkroom/events/"
+    training: "https://www.thegatedarkroom.co.uk/intro-to-bw-photography"
 
 ---
 
