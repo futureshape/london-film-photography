@@ -7,7 +7,7 @@ contact:
   email: "info@swdarkroom.com"
   address: "Royal Victoria Patriotic Building, John Archer Way"
   postcode: "SW18 3SX"
-  phone: "07593 596 938"
+  phone: "07851 643 621"
   official-site: "http://swdarkroom.com/"
   facebook: "https://www.facebook.com/swdarkroom/"
   instagram: "https://www.instagram.com/sw_darkroom/"
@@ -16,22 +16,20 @@ contact:
   latitude: 51.4533
 
 opening:
-  monday: "9:30 – 20:30"
-  tuesday: "9:30 – 20:30"
-  wednesday: "9.30 - 20.30"
-  thursday: "9.30 - 20.30"
-  friday: "9.30 - 20.30"
-  saturday: "9.30 - 20.30"
-  sunday: "Closed"
-  open-weekends: "Saturdays only"
-  open-weekday-evenings: true
+  monday: "By appointment"
+  tuesday: "By appointment"
+  wednesday: "By appointment"
+  thursday: "By appointment"
+  friday: "By appointment"
+  saturday: "By appointment"
+  sunday: "By appointment"
 
 darkroom:
 
   pricing:
-    membership: "£60 (optional, offers discounts)"
+    membership: "£80 (optional, offers discounts)"
     induction: "TBC"
-    printing: "£35 for a 4hr slot"
+    printing: "£40 for a 4hr slot"
 
   black-and-white:
     formats:
