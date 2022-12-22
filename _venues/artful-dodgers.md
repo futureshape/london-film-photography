@@ -14,6 +14,7 @@ contact:
   latitude: 51.520857
 
 film-dev:
+  details: "https://artfuldodgersimaging.com/film-developing/"
   dev-types: "colour black-and-white"  
   pricing:
     c41-35mm-dev-scan: "£15.00"

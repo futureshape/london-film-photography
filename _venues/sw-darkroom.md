@@ -51,6 +51,7 @@ darkroom:
 
 
 film-dev:
+  details: "http://swdarkroom.com/"
   dev-types: "colour black-and-white"  
   pricing:
     c41-35mm-dev-scan: "£5.00"

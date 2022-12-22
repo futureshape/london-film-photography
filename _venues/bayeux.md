@@ -16,6 +16,7 @@ contact:
   latitude: 51.517291
 
 film-dev:
+  details: "https://www.bayeux.co.uk/processing/"
   dev-types: "colour black-and-white slide"  
   pricing:
     c41-35mm-dev-scan: "£22.00"
