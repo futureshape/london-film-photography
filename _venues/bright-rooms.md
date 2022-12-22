@@ -1,6 +1,6 @@
 ---
 title:  "Bright Rooms"
-categories: darkroom
+categories: temporarily-removed
 
 contact:
   address-summary:  "Peckham, SE15"
