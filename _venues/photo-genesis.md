@@ -1,6 +1,6 @@
 ---
 title:  "Photo Genesis"
-categories: temporarily-removed
+categories: film-dev
 
 contact:
   address-summary:  "Poplar, E14"
@@ -8,14 +8,14 @@ contact:
   address: "19 Market Way, Chrisp Street Market"
   postcode: "E14 6AH"
   phone: "020 7987 9422"
-  official-site: "http://www.poplarphotos.co.uk/film-processing"
-  gmaps-link: "https://goo.gl/maps/RxhSBk5TDKnUYpBW8"
+  official-site: "https://photo-genesis.co.uk/film-processing/"
+  gmaps-link: "https://goo.gl/maps/yWiSQWj4YxTRGADR6"
   longitude: -0.01513
   latitude: 51.51319
 
 film-dev:
-  dev-types: "colour black-and-white"  
+  dev-types: "colour"  
   pricing:
-    c41-35mm-dev-scan: "£TBC"
+    c41-35mm-dev-scan: "£7.99"
 
 ---
