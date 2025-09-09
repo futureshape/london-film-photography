@@ -1,7 +1,7 @@
 ---
 title:  "SW Darkroom"
-last-checked-date: 2022-12-22
-categories: darkroom film-dev
+last-checked-date: 2025-09-09
+categories: darkroom
 
 contact:
   address-summary:  "Wandsworth, SW18"
@@ -17,19 +17,20 @@ contact:
   latitude: 51.4533
 
 opening:
-  monday: "By appointment"
-  tuesday: "By appointment"
-  wednesday: "By appointment"
-  thursday: "By appointment"
-  friday: "By appointment"
-  saturday: "By appointment"
-  sunday: "By appointment"
+  monday: "Occasionally open, check booking tool"
+  tuesday: "Occasionally open, check booking tool"
+  wednesday: "Occasionally open, check booking tool"
+  thursday: "Occasionally open, check booking tool"
+  friday: "Occasionally open, check booking tool"
+  saturday: "10:00 - 18:00"
+  sunday: "Occasionally open, check booking tool"
+  open-weekends: "Saturday only"
 
 darkroom:
 
   pricing:
     membership: "£80 (optional, offers discounts)"
-    induction: "TBC"
+    induction: "Mandatory as part of first booking"
     printing: "£40 for a 4hr slot"
 
   black-and-white:
@@ -47,18 +48,8 @@ darkroom:
     max-size: "20×24″"
 
   additional:
-    process-film: true
     training: true
-
-
-film-dev:
-  details: "http://swdarkroom.com/"
-  dev-types: "colour black-and-white"  
-  pricing:
-    c41-35mm-dev-scan: "£5.00"
 
 ---
 
-SW Darkroom is a collaborative printing space for fine art photographers. The philosophy behind thew Darkroom is a place for like-minded people to have access to a workspace in an inspiring environment.
-
-Offering equipment and expert assistance, SW Darkroom is a sanctuary to produce exhibition standard work in a spacious and calm environment with minimal distractions. You can book the entire darkroom space for a whole day to do large silver gelatin prints (up to 54″), or book a four hour slot for printing up top 20″ x 24″.
+At SW Darkroom, we're more than just a darkroom rental service. We're a community of film photography aficionados, dedicated to keeping the traditional art of film processing alive and thriving. Located in the historic Royal Victoria Patriotic Building, we offer a unique blend of classic charm and modern facilities. From bespoke workshops to individual darkroom sessions, we cater to all levels of photographic skill and passion. Join us and be part of London's vibrant film photography scene.
