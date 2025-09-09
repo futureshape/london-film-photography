@@ -1,6 +1,6 @@
 ---
 title:  "Darkroom London"
-last-checked-date: 2021-05-20
+last-checked-date: 2025-09-09
 categories: darkroom
 
 contact:
@@ -30,9 +30,9 @@ opening:
 darkroom:
 
   pricing:
-    membership: "From £60/year"
+    membership: "Mandatory, from £75/year"
     induction: "£20 (free for some membership tiers)"
-    printing: "£7.50/hr"
+    printing: "From £45 (4 hour sessions) / £70 (7 hour sessions)"
     discount-bulk: true
 
   black-and-white:
@@ -49,7 +49,7 @@ film-dev:
   details: "https://www.darkroomlondon.org/new-film-processing-and-printing-service"
   dev-types: "black-and-white"  
   pricing:
-    bw-35mm-dev-scan: "£12.00"
+    bw-35mm-dev-scan: "£12.00 (process only)"
 
 ---
 
