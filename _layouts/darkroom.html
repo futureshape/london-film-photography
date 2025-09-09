@@ -184,8 +184,11 @@ layout: darkroom
         </div>
       </aside>
       <footer>
-        Spotted a mistake or something missing? Get in touch at
-        <a href="mailto:contact@londonfilm.photography">contact@londonfilm.photography</a>.
+  {% if page["last-checked-date"] %}
+  <div class="last-checked">Information last checked: {{ page["last-checked-date"] | date: "%-d %B %Y" }}</div>
+  {% endif %}
+  Spotted a mistake or something missing? Get in touch at
+  <a href="mailto:contact@londonfilm.photography">contact@londonfilm.photography</a>.
       </footer>
     </div>
   </body>

@@ -1,5 +1,6 @@
 ---
 title:  "Aperture Printing"
+last-checked-date: 2022-12-22
 categories: film-dev
 
 contact:

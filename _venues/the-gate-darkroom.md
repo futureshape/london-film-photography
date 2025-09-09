@@ -1,5 +1,6 @@
 ---
 title:  "The Gate Darkroom"
+last-checked-date: 2022-12-21
 categories: darkroom
 
 contact:

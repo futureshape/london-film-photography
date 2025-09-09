@@ -1,5 +1,6 @@
 ---
 title:  "The Camera Club"
+last-checked-date: 2021-05-20
 categories: darkroom
 contact:
   address-summary:  "Kennington, SE11"

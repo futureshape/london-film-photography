@@ -1,5 +1,6 @@
 ---
 title:  "Lakeside Darkroom"
+last-checked-date: 2022-12-22
 categories: darkroom
 
 contact:

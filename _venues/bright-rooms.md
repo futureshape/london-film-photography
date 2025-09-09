@@ -1,5 +1,6 @@
 ---
 title:  "Bright Rooms"
+last-checked-date: 2022-12-22
 categories: temporarily-removed
 
 contact:
