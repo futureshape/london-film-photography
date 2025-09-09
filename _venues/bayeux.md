@@ -1,6 +1,6 @@
 ---
 title:  "Bayeux"
-last-checked-date: 2022-12-22
+last-checked-date: 2025-09-09
 categories: film-dev
 
 contact:
@@ -24,4 +24,4 @@ film-dev:
 
 ---
 
-Bayeux, one of the UK's leading film processing labs, has been serving professional photographers with accurate colour and B&W film processing and printing for more than a decade.
+Bayeux is one of the UK’s leading professional labs, offering on‑site dip & dunk processing (C‑41 colour negative, E6 transparency, B&W) with no mechanical contact to the emulsion, rapid 2–3 hour turnaround (same‑day collection for negatives processed through the day), ISO push/pull at no extra charge, and a full range of scanning (CCD, drum, flatbed) and traditional / digital printing services. 

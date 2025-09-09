@@ -1,6 +1,6 @@
 ---
 title:  "Aperture Printing"
-last-checked-date: 2022-12-22
+last-checked-date: 2025-09-09
 categories: film-dev
 
 contact:
@@ -19,7 +19,7 @@ film-dev:
   details: "https://www.apertureprinting.com/prices"
   dev-types: "colour black-and-white slide"  
   pricing:
-    c41-35mm-dev-scan: "£11.00"
+    c41-35mm-dev-scan: "£14.00"
 
 ---
 

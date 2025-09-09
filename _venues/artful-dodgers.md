@@ -1,6 +1,6 @@
 ---
 title:  "Artful Dodgers"
-last-checked-date: 2022-12-22
+last-checked-date: 2025-09-09
 categories: film-dev
 
 contact:
@@ -18,8 +18,10 @@ film-dev:
   details: "https://artfuldodgersimaging.com/film-developing/"
   dev-types: "colour black-and-white"  
   pricing:
-    c41-35mm-dev-scan: "£15.00"
+    c41-35mm-dev-scan: "£18.00"
 
 ---
 
-Artful Dodgers Imaging is an intimate, bespoke photographic and digital imaging studio, specifically created for the photographer and printer to work together in image creation.
+Artful Dodgers is a bespoke analogue and digital imaging studio specifically created for the photographer and printer to work together.
+
+Our wide range of services include same day film processing, colour film developing, traditional hand printing, digital printing, high-end film scanning and retouching.
