@@ -5,7 +5,7 @@ layout: darkroom
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{page.title}} Darkroom - London Film Photography</title>
+  <title>{% assign lt = page.title | downcase %}{{ page.title }}{% unless lt contains 'darkroom' %} Darkroom{% endunless %} - London Film Photography</title>
     {% include head.html %}
   </head>
   <body>
