@@ -1,34 +1,36 @@
 ---
 title:  "Lakeside Darkroom"
-last-checked-date: 2022-12-22
+last-checked-date: 2025-09-10
 categories: darkroom
 
 contact:
   address-summary:  "Thamesmead, SE2"
-  email: "lakesideaffordabledarkroom@gmail.com"
-  address: "Studio A-02 Ground floor, Lakeside Centre, Bazalgette Way"
+  email: "info@lakesidedarkroom.com"
+  address: "Lakeside Centre, 2 Bazalgette Way"
   postcode: "SE2 9AN"
   official-site: "https://www.lakesidedarkroom.com/"
-  instagram: "https://www.instagram.com/lakeside_affordable_darkroom/"
-  twitter: "https://twitter.com/lksdarkroom"
-  gmaps-link: "https://goo.gl/maps/eBG9cDvyAEGRu75V7"
+  instagram: "https://www.instagram.com/lakeside_darkroom/"
+  facebook: "https://www.facebook.com/LakesideDarkroom"
+  gmaps-link: "https://maps.app.goo.gl/qgKbdAGkSeKr75er9"
   longitude: 0.1241
   latitude: 51.5
 
 opening:
   monday: "Closed"
   tuesday: "Closed"
-  wednesday: "11.30 - 19.00"
-  thursday: "11.30 - 19.00"
-  friday: "11.30 - 19.00"
-  saturday: "11.30 - 18.30 (workshops day)"
+  wednesday: "15:00 - 21:00"
+  thursday: "15:00 - 21:00"
+  friday: "15:00 - 21:00"
+  saturday: "15:00 - 21:00"
   sunday: "Closed"
+  open-weekday-evenings: "Wed-Sat"
+  open-weekends: "Saturday only"
 
 darkroom:
   pricing:
-    membership: "£30 for 3 months"
-    induction: "TBC"
-    printing: "£40/day for non-memebers"
+    membership: "From £45.50 for 3 months, offers discounted sessions"
+    induction: "£22.00"
+    printing: "£40/day for non-members"
 
   black-and-white:
     formats:
@@ -42,8 +44,6 @@ darkroom:
 
 ---
 
-Lakeside Darkroom is a membership-based, open access community black & white darkroom.
+Lakeside Darkroom (LKSD) is a Community Interest Company (CIC) with a strong feminist ethos, dedicated to analogue photography.  Founded in August 2022, LKSD is more than just a darkroom—it’s a space where creativity, experimentation, and community come together.
 
-It is aimed toward women and those with little financial resources who practise analogue photography.
-
-The facility provides a high-quality darkroom and post-production facilities at an affordable price, enabling practitioners to continue their research on analogue photography while also building a community.
+At LKSD, analogue photography is more than a medium—it’s a  tool for connection, empowerment, and creative resistance. Join us to develop your practice in a space where you can slow down, experiment, and grow within a truly supportive community.

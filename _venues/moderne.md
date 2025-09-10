@@ -6,20 +6,20 @@ categories: darkroom film-dev
 contact:
   address-summary:  "Fish Island, E3"
   email: "info@moderne-lab.com"
-  address: "Unit G15, 56 Dace Road"
-  postcode: "E3 2NQ"
+  address: "39/3A Autumn Street"
+  postcode: "E3 2TT"
   phone: "07521 191 459"
   instagram: "https://www.instagram.com/modernelab/"
-  gmaps-link: "https://g.page/moderne-lab-ltd?share"
+  gmaps-link: "https://maps.app.goo.gl/uYjvjHdCcp6qJaDA6"
   longitude: -0.022799
   latitude: 51.537771
 
 opening:
-  monday: "9.30 - 18.30"
-  tuesday: "9.30 - 18.30"
-  wednesday: "9.30 - 18.30"
-  thursday: "9.30 - 18.30"
-  friday: "9.30 - 18.30"
+  monday: "9.00 - 18.00"
+  tuesday: "9.00 - 18.00"
+  wednesday: "9.00 - 18.00"
+  thursday: "9.00 - 18.00"
+  friday: "9.00 - 18.00"
   saturday: "On request"
   sunday: "On request"
   open-weekends: "On request"
@@ -48,7 +48,7 @@ darkroom:
 film-dev:
   dev-types: "colour black-and-white"  
   pricing:
-    c41-35mm-dev-scan: "£8.00"
+    c41-35mm-dev-scan: "£15.60"
 
 ---
 

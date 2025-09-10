@@ -1,6 +1,6 @@
 ---
 title:  "Metro Imaging"
-last-checked-date: 2022-12-22
+last-checked-date: 2025-09-10
 categories: film-dev
 
 contact:
@@ -20,7 +20,7 @@ film-dev:
   details: "https://metroimaging.co.uk/film-developing/"
   dev-types: "colour black-and-white slide"  
   pricing:
-    c41-35mm-dev-scan: "£22.00"
+    c41-35mm-dev-scan: "£23.00"
 
 ---
 
