@@ -32,14 +32,14 @@ Sorry, you can't make a booking directly through this site.
 
 ## Who made this and why?
 
-I'm [Alex](https://twitter.com/futureshape), and photography is one of my many
+I'm [Alex](https://www.instagram.com/futureshape/), and photography is one of my many
 hobbies. Over the last couple of years, I re-discovered film photography and
 started developing my own film and making prints.
 
-I helped set up and manage a [community darkroom](https://wiki.london.hackspace.org.uk/view/Group:Darkroom) at
+A while ago, I helped set up and manage a [community darkroom](https://wiki.london.hackspace.org.uk/view/Group:Darkroom) at
 [London Hackspace](https://london.hackspace.org.uk/).
 
-As the Hackspace is currently searching for a new home, I started looking for
+After the Hackspace moved to a new location far from me, I started looking for
 somewhere else to continue printing my photos. I found it hard to get
 information about the different darkrooms available in London, so I thought I'd
 make this easier for the next people looking for the same thing.
