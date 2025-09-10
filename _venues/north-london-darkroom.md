@@ -1,12 +1,12 @@
 ---
 title:  "North London Darkroom"
-last-checked-date: 2021-05-20
+last-checked-date: 2025-09-10
 categories: darkroom
 
 contact:
   address-summary:  "Tottenham Hale, N17"
   email: "info@londondarkroom.com"
-  address: "Milmead Industrial Center, Tottenham Hale"
+  address: "Unit 3D (Ground Floor), Millmead Ind Center, Tottenham Hale"
   postcode: "N17 9QU"
   phone: "07841 903014"
   official-site: "http://www.londondarkroom.com/"
@@ -30,20 +30,20 @@ opening:
 darkroom:
 
   pricing:
-    membership: "£195/month + £300 deposit (minimum four months)"
-    induction: "TBC"
+    membership: "£300/month + £300 deposit (minimum four months)"
+    induction: "By application (experience required)"
     printing: "Included in membership fee"
+    discount-students: "Graduate discounts (subject to availability)"
 
   black-and-white:
     formats:
     - "35mm"
     - "medium format"
     - "large format (10×8″)"
-    max-size: "16×20″"
+    max-size: "20x24″"
 
   additional:
     process-film: true
-    training: "http://www.londondarkroom.com/shop/workshops/"
 
 ---
 

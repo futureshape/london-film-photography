@@ -1,6 +1,6 @@
 ---
 title:  "Rapid Eye"
-last-checked-date: 2021-05-20
+last-checked-date: 2025-09-10
 categories: darkroom film-dev
 
 contact:
@@ -9,7 +9,7 @@ contact:
   address: "79 Leonard Street"
   postcode: "EC2A 4QS"
   phone: "020 7729 9292"
-  official-site: "https://www.rapideye.uk.com/digital-c-type"
+  official-site: "https://www.rapideye.uk.com"
   facebook: "https://www.facebook.com/Rapid.Eye.London/"
   instagram: "https://www.instagram.com/rapideye.darkroom"
   gmaps-link: "https://goo.gl/maps/raetiX57RRM2"
@@ -17,21 +17,21 @@ contact:
   latitude: 51.524851
 
 opening:
-  monday: "9.30 - 17.30"
-  tuesday: "9.30 - 17.30"
-  wednesday: "9.30 - 17.30"
-  thursday: "9.30 - 17.30"
-  friday: "9.30 - 17.30"
-  saturday: "Closed"
-  sunday: "11.00 - 17.00"
-  open-weekends: "Sunday only"
+  monday: "10.00 - 18.00"
+  tuesday: "10.00 - 18.00"
+  wednesday: "10.00 - 18.00"
+  thursday: "10.00 - 18.00"
+  friday: "10.00 - 18.00"
+  saturday: "12.00 - 18.00"
+  sunday: "12.00 - 18.00"
+  open-weekends: true
 
 darkroom: 
 
   pricing:
-    membership: "Not needed"
-    induction: "Optional"
-    printing: "£12 per hour (book in 4-hour blocks)"
+    membership: "£30/months, 3 month minimum, offers discounted services"
+    induction: "From £105"
+    printing: "£50 per 4 hours"
     discount-bulk: "£240 for 6 sessions - 24 hours"
 
   black-and-white:
@@ -47,7 +47,10 @@ darkroom:
     - "medium format"
     - "large format (10×8″)"  
     max-size: "30×40″"
-    
+
+  additional:
+    training: "https://www.rapideye.uk.com/collections/workshops"
+
 film-dev:
   details: "https://www.rapideye.uk.com/digital-c-type-1"
   dev-types: "colour black-and-white"  

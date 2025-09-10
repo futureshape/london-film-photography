@@ -8,20 +8,21 @@ contact:
   address: "16 Bowden Street"
   postcode: "SE11 4DS"
   phone: "020 7587 1809"
-  official-site: "https://www.thecameraclub.co.uk/facilities/darkrooms/"
+  official-site: "https://www.thecameraclub.co.uk/darkrooms"
   facebook: "https://www.facebook.com/cameraclublondon"
+  instagram: "https://www.instagram.com/cameraclubuk/"
   gmaps-link: "https://goo.gl/maps/RzdGnzLkGXx"
   longitude: -0.110678
   latitude: 51.487871
 
 opening:
-  monday: "11:00 – 22:00"
-  tuesday: "11:00 – 22:00"
-  wednesday: "11:00 – 22:00"
-  thursday: "11:00 – 22:00"
-  friday: "11:00 – 22:00"
-  saturday: "10:00 – 18:00"
-  sunday: "10:00 – 18:00"
+  monday: "11.00 – 22.00"
+  tuesday: "11.00 – 22.00"
+  wednesday: "11.00 – 22.00"
+  thursday: "11.00 – 22.00"
+  friday: "11.00 – 18.00"
+  saturday: "10.00 – 18.00"
+  sunday: "10.00 – 18.00"
   open-weekends: true
   open-weekday-evenings: true
 
@@ -38,10 +39,10 @@ darkroom:
     - "35mm"
     - "medium format"
     - "large format (8×10″)"
-    max-size: "size TBC"
+    max-size: "20×24″"
 
   additional:
-    training: "https://www.thecameraclub.co.uk/group-workshops/"
+    training: true
 
 ---
 
