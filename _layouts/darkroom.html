@@ -99,10 +99,12 @@ layout: darkroom
           <p>
             {{page.darkroom.pricing.membership}}
           </p>
+          {% if page.darkroom.pricing.induction %}
           <h3>Induction</h3>
           <p>
             {{page.darkroom.pricing.induction}}
           </p>
+          {% endif %}
           <h3>Printing</h3>
           <p>
             {{page.darkroom.pricing.printing}}
