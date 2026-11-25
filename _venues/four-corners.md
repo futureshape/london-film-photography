@@ -1,6 +1,6 @@
 ---
 title:  "Four Corners"
-last-checked-date: 2025-09-10 
+last-checked-date: 2026-11-25
 categories: darkroom
 
 contact:
@@ -17,8 +17,8 @@ contact:
   latitude: 51.528616
 
 opening:
-  monday: "10.00 - 18.00"
-  tuesday: "10.00 - 18.00"
+  monday: "Closed"
+  tuesday: "Closed"
   wednesday: "10.00 - 18.00"
   thursday: "10.00 - 18.00"
   friday: "10.00 - 18.00"
@@ -29,9 +29,9 @@ darkroom:
   pricing:
     membership: "£50 per year"
     induction: "Included with membership"
-    printing: "B&W: £25, Colour: £30 per 4 hours"
-    discount-students: "reduced membership fee"
-    discount-bulk: true
+    printing: "B&W: £25 per 4 hours, Colour: £30 per 4 hours"
+    discount-bulk: "5 sessions or days for the price of 4 when paid in advance; discounts available on longer hires"
+    discount-students: "£30 membership"
 
   black-and-white:
     formats:
