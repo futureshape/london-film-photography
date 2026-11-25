@@ -1,93 +1,85 @@
-# Venue Front Matter Template (Reference Only)
+# Venue Front Matter Reference
 
-This file documents the front matter schema used for venue-like entries (e.g. darkrooms, labs). It is NOT an active venue page and can be copied & adapted when adding a new entry under the appropriate collection (e.g. `_darkrooms/`, `_film-labs/`, or `_venues/` if you later configure it as a collection).
+This file documents the front matter used by darkroom and film-lab listings. It is guidance only; Jekyll does not load it as a template.
 
-> Copy the example front matter block below into a new file, then fill in / prune fields as needed. Keep keys but remove any unused nested sections to avoid clutter.
+## Where venue records live
 
----
-## Quick Rules
-- File name: use a lowercase, hyphenated slug (e.g. `example-darkroom.md`). The slug becomes part of the URL if the collection outputs pages.
-- YAML front matter must start and end with `---`.
-- Quote values containing special characters (`:`, `&`, `£`, `%`, `–`, `–`), or leading zeros.
-- Latitude/longitude should be numeric (no quotes) for easier programmatic use.
-- Remove whole optional sections you do not need (don’t leave them empty).
-- Use straight quotes (`"`) in YAML; smart quotes can break parsing.
+Add or edit one Markdown file per venue in `_venues/`. In this repository, `_darkrooms/` and `_film-labs/` are symlinks to `_venues/`, and both collections are configured in `_config.yml`. A record can therefore be used by both the darkroom detail pages and the film-lab listing; do not make duplicate copies in the symlinked directories.
 
----
-## Top-Level Keys (Overview)
+Use a lowercase, hyphenated filename such as `example-darkroom.md`. The filename becomes the venue slug. Put YAML front matter between the opening and closing `---` lines; any Markdown after the closing line is the page body.
 
-| Key | Type | Required | Purpose |
-|-----|------|----------|---------|
-| `title` | String | Yes | Display name of the venue. |
-| `categories` | Space‑separated list (string) | Optional | Tagging / filtering (e.g. `darkroom film-dev`). |
-| `last-checked-date` | Date (YYYY-MM-DD) | Optional | When info was last manually verified; currently displayed only on darkroom pages if present. |
-| `contact` | Mapping | Strongly recommended | Address & communication details. |
-| `opening` | Mapping | Optional | Public opening hours / availability notes. |
-| `darkroom` | Mapping | Optional | Details specific to printing darkrooms. |
-| `film-dev` | Mapping | Optional | Details about film development / processing services. |
-| (body content) | Markdown | Optional | Descriptive text shown on the page. |
+## General rules
 
-### `contact` subsection
-| Key | Type | Required | Notes |
-|-----|------|----------|-------|
-| `address-summary` | String | Recommended | Short area/neighbourhood (shown in lists). |
-| `email` | String | Optional | Primary contact email. |
-| `address` | String | Recommended | Street address (no city/postcode). |
-| `postcode` | String | Recommended (UK) | Keep uppercase; quote it. |
-| `phone` | String | Optional | Include country code only if needed (`+44 ...`). |
-| `official-site` | URL String | Recommended | Canonical service / booking page. |
-| `facebook` | URL String | Optional | Social media. |
-| `instagram` | URL String | Optional | Social media. |
-| `gmaps-link` | URL String | Optional | Google Maps short link. |
-| `longitude` | Number | Optional | Decimal degrees (W negative). |
-| `latitude` | Number | Optional | Decimal degrees (N positive). |
+- Use `title` and a space-separated `categories` string. Current category tokens are `darkroom`, `film-dev`, and `temporarily-removed`.
+- Set `last-checked-date` to an ISO date (`YYYY-MM-DD`) when the listing has been manually verified. It is shown on darkroom detail pages.
+- Use double quotes for string values, especially values containing punctuation, special characters, or leading zeroes. Keep latitude and longitude numeric.
+- Use `true` only for the boolean options described below. Omit unused keys and empty mappings; do not use empty strings or `false` as placeholders.
+- Only fields consumed by the site templates are displayed. Adding an undocumented field does not add it to the page; a new displayed field also requires a template change.
 
-### `opening` subsection
-Typical day keys: `monday` … `sunday` (String). Use `Closed` if not open.
-Supplemental keys sometimes used:
-- `open-weekends`: Short note (e.g. `Saturday only`).
-- `open-weekday-evenings`: Note for evening availability.
-- You can add a clarifying note like `booking-window` if needed (custom keys are allowed, but stay consistent across files if you start using them widely).
+## Common fields
 
-### `darkroom` subsection
-| Key | Type | Notes |
-|-----|------|-------|
-| `pricing` | Mapping | Aggregated pricing info (membership, induction, printing, etc.). |
-| `black-and-white` | Mapping | Capabilities for B&W printing. |
-| `colour` | Mapping | Capabilities for colour (RA‑4 / enlargers). |
-| `additional` | Mapping | Links to training / extras. |
+Every current venue record needs the following fields; the map and detail layouts consume them directly.
 
-Suggested nested keys:
-- `pricing.membership`: Membership fee or note (string).
-- `pricing.induction`: Induction requirements.
-- `pricing.printing`: Core session pricing / structure.
-- `pricing.discount-students`: `Yes` / `No` or explanatory string.
-- `black-and-white.formats`: List of supported film formats (e.g. `["35mm", "medium format", "large format (5x4)"]`).
-- `black-and-white.max-size`: Largest print size achievable (e.g. `16x20").`
-- `colour.formats`: List.
-- `colour.max-size`: Size string.
-- `additional.training`: URL or short note.
+| Field | Type | Use |
+|---|---|---|
+| `title` | String | Venue name. |
+| `categories` | Space-separated string | Selects which listings include the venue. Use `darkroom`, `film-dev`, or both. Use `temporarily-removed` to suppress a listing from the public map. |
+| `contact.address-summary` | String | Neighbourhood and postcode area, used on cards and map markers. |
+| `contact.address` | String | Street address, used on detail pages. |
+| `contact.postcode` | String | UK postcode; quote it to preserve formatting. |
+| `contact.email` | String | Contact email shown on detail pages. |
+| `contact.gmaps-link` | URL string | Google Maps link. |
+| `contact.latitude` | Number | Decimal latitude, north positive. |
+| `contact.longitude` | Number | Decimal longitude, west negative. |
 
-### `film-dev` subsection
-| Key | Type | Notes |
-|-----|------|-------|
-| `details` | URL String | Film processing service page. |
-| `dev-types` | String / list | Space or comma separated keywords (`colour black-and-white`). |
-| `pricing` | Mapping | Per‑service pricing keys you standardise (e.g. `c41-35mm-dev-scan`). |
-| (custom) | Any | Add more as needed; keep slug‑like keys for consistency. |
+Optional contact fields: `phone`, `official-site`, `facebook`, and `instagram`. Use absolute URLs, including the protocol. For film-development listings, use `film-dev.details` for the service-specific website link when available.
 
-If a specific price changes frequently, you can either:
-- Keep a placeholder: `c41-35mm-dev-scan: "see site for current price"`
-- Or store only a `notes` field summarising pricing model.
+## Darkroom fields
 
----
-## Annotated Example Front Matter
+Use these fields when `categories` contains `darkroom`. The detail layout prints all seven days and the membership and printing values, so provide them rather than leaving them blank.
+
+### Opening
+
+`opening` is a mapping with string values for all seven keys: `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, and `sunday`. Use `Closed` only when closure is confirmed; otherwise give the verified hours or a concise note such as `By appointment`.
+
+Optional `opening.open-weekends` and `opening.open-weekday-evenings` accept `true` or a short explanatory string. A string is shown in parentheses after the availability label. Omit the key when it does not apply.
+
+### Darkroom pricing and facilities
+
+| Field | Type | Notes |
+|---|---|---|
+| `darkroom.pricing.membership` | String | Required. Fee or `Not needed`. |
+| `darkroom.pricing.printing` | String | Required. Session or printing rates. |
+| `darkroom.pricing.induction` | String | Optional and displayed under Pricing. Include only a fee or fee-related detail (for example, `Included with membership`); omit induction requirements or scheduling information. |
+| `darkroom.pricing.discount-bulk` | Boolean or string | Optional. `true` displays the bulk-booking label; a string is shown after it in parentheses. |
+| `darkroom.pricing.discount-students` | Boolean or string | Optional. `true` displays the student-discount label; a string is shown after it in parentheses. |
+| `darkroom.black-and-white` | Mapping | Optional. If present, provide `formats` as a list of strings and `max-size` as a string. |
+| `darkroom.colour` | Mapping | Optional. If present, provide `formats` as a list of strings and `max-size` as a string. |
+| `darkroom.additional.process-film` | Boolean or string | Optional. `true` displays the service label; a string adds a short note. |
+| `darkroom.additional.training` | Boolean or URL string | Optional. `true` displays the training label; a URL makes it a link. |
+
+Only the fields listed here are rendered from `darkroom`. In particular, do not add custom fields under `additional` expecting them to appear automatically.
+
+## Film-development fields
+
+Use `film-dev` when `categories` contains `film-dev`.
+
+| Field | Type | Notes |
+|---|---|---|
+| `film-dev.details` | URL string | Optional link to the film-development service page. |
+| `film-dev.dev-types` | Space-separated string | Required. Supported tokens are `colour`, `black-and-white`, and `slide`. |
+| `film-dev.pricing.c41-35mm-dev-scan` | String | Required when `dev-types` includes `colour`; this is the starting 35mm colour development-and-scan price shown on the listing card. |
+| `film-dev.pricing.bw-35mm-dev-scan` | String | Required when `dev-types` includes `black-and-white` but not `colour`; this is the starting B&W price shown on the listing card. |
+
+When both `colour` and `black-and-white` are listed, the card shows only the colour price. Other pricing keys already present in records are not displayed by the current listing template.
+
+## Example
 
 ```yaml
 ---
-title: "Example Darkroom Lab"
-categories: darkroom film-dev
-last-checked-date: "2025-09-09"
+title: "Example Darkroom"
+categories: "darkroom film-dev"
+last-checked-date: 2025-09-09
 
 contact:
   address-summary: "Hackney, E8"
@@ -95,10 +87,8 @@ contact:
   address: "12 Sample Street"
   postcode: "E8 4AB"
   phone: "+44 20 7000 0000"
-  official-site: "https://www.examplelab.org/darkroom"
-  facebook: "https://www.facebook.com/examplelab"
-  instagram: "https://www.instagram.com/examplelab/"
-  gmaps-link: "https://goo.gl/maps/xyzExample"
+  official-site: "https://www.examplelab.org/"
+  gmaps-link: "https://maps.example.org/example"
   longitude: -0.055321
   latitude: 51.543210
 
@@ -111,105 +101,26 @@ opening:
   saturday: "11:00 - 17:00"
   sunday: "Closed"
   open-weekends: "Saturday only"
-  open-weekday-evenings: "Thursdays by arrangement"
 
-# Include this only if the venue offers public darkroom printing
-# Omit entirely otherwise.
 darkroom:
   pricing:
-    membership: "£50/year (optional)"
-    induction: "Required once; free 15 min orientation"
-    printing: "£40 per 6‑hour session (members £32)"
-    discount-students: Yes
+    membership: "£50 per year"
+    printing: "£40 per 4-hour session"
+    discount-students: "Reduced membership"
   black-and-white:
     formats:
       - "35mm"
       - "medium format"
       - "large format (5x4)"
     max-size: "16x20"
-  colour:
-    formats:
-      - "35mm"
-      - "medium format"
-    max-size: "20x24"
-  additional:
-    training: "https://www.examplelab.org/courses/"
 
-# Include only if film processing is offered
 film-dev:
   details: "https://www.examplelab.org/film-processing/"
   dev-types: "colour black-and-white"
   pricing:
     c41-35mm-dev-scan: "£15.00"
-    bw-35mm-dev: "£8.00"
-    push-pull: "+£2 per stop"
+    bw-35mm-dev-scan: "£12.00"
 ---
 
-Intro paragraph about the venue – what makes it unique, history, or any
-special policies (e.g. bring your own paper, chemistry provided, membership benefits).
+Optional Markdown description shown on the darkroom detail page.
 ```
-
----
-## Blank Scaffold (Copy & Fill)
-```yaml
----
-title: ""
-categories: 
-last-checked-date: ""
-contact:
-  address-summary: ""
-  email: ""
-  address: ""
-  postcode: ""
-  phone: ""
-  official-site: ""
-  facebook: ""
-  instagram: ""
-  gmaps-link: ""
-  longitude: 
-  latitude: 
-opening:
-  monday: ""
-  tuesday: ""
-  wednesday: ""
-  thursday: ""
-  friday: ""
-  saturday: ""
-  sunday: ""
-  open-weekends: ""
-  open-weekday-evenings: ""
-# darkroom: (remove this comment and section if not applicable)
-#   pricing:
-#     membership: ""
-#     induction: ""
-#     printing: ""
-#     discount-students: 
-#   black-and-white:
-#     formats: []
-#     max-size: ""
-#   colour:
-#     formats: []
-#     max-size: ""
-#   additional:
-#     training: ""
-# film-dev:
-#   details: ""
-#   dev-types: ""
-#   pricing:
-#     c41-35mm-dev-scan: ""
----
-```
-
----
-## Common Pitfalls
-- Smart quotes copied from web pages cause YAML parse errors – replace them.
-- Trailing spaces after a quote sometimes break diffs; trim them.
-- If you remove all keys from a mapping, delete the mapping header too.
-- Keep numeric lat/long unquoted so tools can parse them as numbers.
-
----
-## Extending the Schema
-You can safely add custom keys in subsections (e.g. `darkroom.equipment:` list) – keep names lowercase with hyphens if multiword. Document new keys here if you decide to standardise them.
-
----
-(End of template)
