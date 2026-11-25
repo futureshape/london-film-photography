@@ -1,6 +1,6 @@
 ---
 title:  "The Camera Club"
-last-checked-date: 2021-05-20
+last-checked-date: 2026-11-25
 categories: darkroom
 contact:
   address-summary:  "Kennington, SE11"
@@ -31,7 +31,7 @@ darkroom:
   pricing:
     membership: "£120 per year"
     induction: "Included in membership fee"
-    printing: "£5 per hour"
+    printing: "£7 per hour"
     discount-students: true
 
   black-and-white:

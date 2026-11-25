@@ -1,6 +1,6 @@
 ---
 title:  "Photofusion"
-last-checked-date: 2025-09-09
+last-checked-date: 2026-11-25
 categories: darkroom film-dev
 
 contact:

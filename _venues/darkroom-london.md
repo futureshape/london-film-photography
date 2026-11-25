@@ -1,6 +1,6 @@
 ---
 title:  "Darkroom London"
-last-checked-date: 2025-09-09
+last-checked-date: 2026-11-25
 categories: darkroom
 
 contact:
@@ -31,8 +31,8 @@ darkroom:
 
   pricing:
     membership: "Mandatory, from £75/year"
-    induction: "£20 (free for some membership tiers)"
-    printing: "From £45 (4 hour sessions) / £70 (7 hour sessions)"
+    induction: "£35 (included with Silver Bromide and Platinum memberships)"
+    printing: "Short: £45 weekday / £50 weekend; Long: £70 weekday / £80 weekend"
     discount-bulk: true
 
   black-and-white:

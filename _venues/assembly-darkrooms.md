@@ -1,6 +1,6 @@
 ---
 title:  "Assembly Darkrooms"
-last-checked-date: 2025-09-09
+last-checked-date: 2026-11-25
 categories: darkroom
 
 contact:
@@ -30,7 +30,7 @@ darkroom:
   pricing:
     membership: "Not needed"
     induction: "Mandatory for all new users"
-    printing: "From £45 for 4 hours session, and £65 for 8 hour session"
+    printing: "B&W: £45 (4hrs) / £65 (8hrs); Colour: £50 (4hrs) / £75 (8hrs)"
     discount-bulk: true
 
   black-and-white:

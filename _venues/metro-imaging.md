@@ -1,6 +1,6 @@
 ---
 title:  "Metro Imaging"
-last-checked-date: 2025-09-10
+last-checked-date: 2026-11-25
 categories: film-dev
 
 contact:
