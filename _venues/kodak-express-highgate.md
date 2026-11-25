@@ -1,5 +1,5 @@
 ---
-title:  "Kodak Express Hightate"
+title: "Kodak Express Highgate"
 last-checked-date: 2025-09-10
 categories: film-dev
 
